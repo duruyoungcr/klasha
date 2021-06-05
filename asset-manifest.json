@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/klasha/static/css/main.e62c79a7.chunk.css",
+    "main.js": "/klasha/static/js/main.92832b1f.chunk.js",
+    "main.js.map": "/klasha/static/js/main.92832b1f.chunk.js.map",
+    "runtime-main.js": "/klasha/static/js/runtime-main.86bfcee1.js",
+    "runtime-main.js.map": "/klasha/static/js/runtime-main.86bfcee1.js.map",
+    "static/js/2.a8204ba7.chunk.js": "/klasha/static/js/2.a8204ba7.chunk.js",
+    "static/js/2.a8204ba7.chunk.js.map": "/klasha/static/js/2.a8204ba7.chunk.js.map",
+    "static/js/3.084f150b.chunk.js": "/klasha/static/js/3.084f150b.chunk.js",
+    "static/js/3.084f150b.chunk.js.map": "/klasha/static/js/3.084f150b.chunk.js.map",
+    "index.html": "/klasha/index.html",
+    "static/css/main.e62c79a7.chunk.css.map": "/klasha/static/css/main.e62c79a7.chunk.css.map",
+    "static/js/2.a8204ba7.chunk.js.LICENSE.txt": "/klasha/static/js/2.a8204ba7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/klasha/static/media/test-founders-grotesk-text-regular.0798e6dd.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86bfcee1.js",
+    "static/js/2.a8204ba7.chunk.js",
+    "static/css/main.e62c79a7.chunk.css",
+    "static/js/main.92832b1f.chunk.js"
+  ]
+}
