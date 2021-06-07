@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+  font-family: 'Founders Grotesk';
+  src: local('Founders Grotesk'), url(./fonts/test-founders-grotesk-text-regular.woff) format('woff');
+}
+  *, body{
+    font-family: 'Founders Grotesk', sans-serif;
+    color: #2A2A2A;
+  }
+  input:focus, select:focus, input:focus-within, select:focus-within, a:focus-within, a:focus {
+    outline: 1px solid #2C665D;
+  }
+  /* Aside styles */
+  .aside {
+    min-width: 280px;
+  }
+  /* Header styles */
+  .user__avatar {
+    width: 50px;
+    height: 50px;
+  }
+  /* Overview styles */
+  .overview__current {
+    width: 365px;
+    min-height: 176px;
+    border-radius: 10px 0 0 10px;
+  }
+  .overview__hold {
+    border-radius: 10px;
+    margin-left: -10px;
+  }
+  .divider {
+    margin: 18px 0;
+  }
+  .overview__amount {
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 43px;
+  }
+  /* Table styles */
+  .table__search {
+    height: 42px;
+    width: 300px;
+    padding: 11px 15px 11px 15px;
+  }
+  .search__icon {
+    transform: translate(-50%, -50%);
+  }
+  .input__pickdate, .table__payout__btn{
+    height: 42px;
+  }
+  /* .table__heading {
+
+  } */
+  .table__data {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-bottom-color: #F5F5F5;
+  }
+  .table__data:hover {
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+    border-color: #2C665D;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  .table__data:last-of-type {
+    margin-bottom: 0;
+  }
+  .table::-webkit-scrollbar {
+    display: none !important;
+  }
+  @media screen and (max-width: 575px){
+    .overview__current {
+      border-radius: 10px 10px 0 0;
+      width: 100%;
+    }
+    .overview__hold {
+      border-radius: 0 0 10px 10px;
+      margin-left: 0px;
+      margin-top: -10px;
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .toggle {
+    transform: translateX(-50%);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
